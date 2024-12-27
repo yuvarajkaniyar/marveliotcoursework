@@ -1,125 +1,102 @@
-# Level 1 Tasks
-
-## Task 1: Simon Says Game
-This task involved creating a Simon Says game using ESP32, pushbuttons, and LEDs. The LEDs blinked in random patterns, and I had to replicate the sequence by pressing the correct buttons. If the sequence was wrong, the game restarted automatically. This helped me practice coding with ESP32 and understand random sequence generation.
-
-![Simon Says Game Setup](#)
+# Task List with Experiences and Images
 
 ---
 
-## Task 2: Basics of MQTT Protocol and Communication Protocols
-In this task, I explored the MQTT protocol, focusing on its Publish/Subscribe operations, and learned about other communication and networking protocols. This gave me a solid understanding of how IoT devices communicate.
+## Task 1: Simon Says Game
+I created a "Simon Says" game using ESP32, push buttons, and LEDs. The game blinked LEDs randomly, and I pressed the corresponding buttons. It restarted when I failed.
+
+---
+
+## Task 2: Basics of MQTT Protocol
+I learned about the MQTT protocol and implemented a system to publish and subscribe messages for controlling LEDs. It was a great way to explore IoT communication.
 
 ---
 
 ## Task 3: Basics of Creating a Website
-I created a simple webpage with a button that toggled the background color when clicked. This task helped me get familiar with basic front-end and back-end concepts.
+This task involved creating a website with a button that toggles the webpage's background color. It helped me understand the basics of front-end and back-end web development.
 
-![Website Example](#)
+![Basic Site](https://i.postimg.cc/vg9hfgs6/basicsite.jpg)
+
+![Code for Site](https://i.postimg.cc/683hz1KK/basicsitecode.jpg)
 
 ---
 
-## Task 4: ESP32 CAM-Based Surveillance Robot
-This task involved building a surveillance robot using ESP32-CAM. I set up live video streaming, controlled the robot via Wi-Fi, and used the L298N motor driver for movement. It was a practical way to learn about real-time robotics and video streaming.
-
-![Surveillance Robot Setup](#)
+## Task 4: ESP32 CAM Surveillance Robot
+Using ESP32 CAM and the L298N motor driver, I built a robot for video surveillance. The robot streamed live video over Wi-Fi and could be remotely controlled.
 
 ---
 
 ## Task 5: MQTT Publish and Subscribe
-In this task, I controlled three LEDs using MQTT. By publishing messages like `LED 1 ON` or `LED 2 OFF`, I toggled specific LEDs remotely. It demonstrated the practical use of MQTT in controlling multiple devices.
-
-![MQTT LED Control](#)
+I set up MQTT publishing and subscribing functionalities for controlling three LEDs based on messages. It was an insightful task demonstrating seamless IoT communication.
 
 ---
 
 ## Task 6: Sending Data to ThingSpeak
-I used an ESP32 to send temperature data to ThingSpeak. The platform displayed the data as a temperature vs. time graph. Later, I retrieved the data for analysis, which was a great introduction to IoT data handling.
+In this task, I posted temperature data to ThingSpeak using ESP32 and graphed it over time. It was rewarding to visualize the data and analyze trends.
 
-![ThingSpeak Data Plot](#)
+![ThingSpeak Example](https://i.postimg.cc/629V2HYF/thinkspeak.jpg)
 
 ---
 
 ## Task 7: Communication using I2C Protocol
-This task involved using the I2C protocol to send data between ESP32 and Arduino. I displayed messages typed on a webserver to an LCD screen connected to the Arduino. It was an excellent hands-on experience with wired communication protocols.
+I sent data from ESP32 to Arduino using the I2C protocol and displayed a message on an LCD screen. The message was typed using a webserver hosted on ESP32.
 
-![I2C Communication Setup](#)
-
----
-
-## Task 9: Soil Moisture Sensor
-I measured the soil moisture level using a capacitive soil moisture sensor and displayed the readings on the serial monitor. The system alerted me if the moisture level was below a threshold, which showed me how IoT can be applied in agriculture.
-
-![Soil Moisture Sensor Setup](#)
+![I2C Communication](https://i.postimg.cc/DJBrqqN0/spicommunication.jpg)
 
 ---
 
-## Task 10: Read and Display Vitals
-I worked on measuring heart rate and oxygen levels using the MAX30100 sensor. The data was displayed on an Android app connected via MQTT or a webserver. Alerts were sent if the vitals were outside the normal range.
+## Task 8: Soil Moisture Sensor
+I measured the moisture level of soil using a capacitive soil moisture sensor. The sensor data displayed on an LCD, and an alert triggered if the level was too low.
 
-![Vitals Monitoring Setup](#)
+![Soil Moisture Display](https://i.postimg.cc/0MdthMB1/moisturedisplay.jpg)
 
----
-
-## Task 11: Fire Alarm System with Email Alerts
-This task involved building a fire alarm system using ESP32 and fire sensors. Upon detecting fire, the ESP32 sent an email alert. The task was tested in an open area under supervision for safety.
-
-![Fire Alarm System Setup](#)
+![Soil Moisture Example](https://i.postimg.cc/7JZNcBzS/silmoisture2.jpg)
 
 ---
 
-# Level 2 Tasks
+## Task 9: Fire Alarm System with Email Alerts
+This task involved creating a fire alarm system using ESP32 and fire sensors. On detecting fire, the ESP32 sent email alerts for timely action.
 
-## Task 1: Automatic Plant Watering
-For this task, I designed an automated plant watering system using a solenoid valve, soil moisture sensor, and relay. The system watered the plant when moisture fell below a certain level. It was a practical way to learn about IoT applications in agriculture.
+![Fire Alarm Alert](https://i.postimg.cc/JtdJM3B7/emailalert.jpg)
 
-![Plant Watering System](#)
-
----
-
-## Task 2: Introduction to RFID
-I interfaced an RFID reader with ESP32 to read the hex code of a metro card and displayed it on an LCD. This task introduced me to RFID technology and its applications.
-
-![RFID Reader Setup](#)
+![Email Alert Example](https://i.postimg.cc/4mD9hJ5r/emailalertmail.jpg)
 
 ---
 
-## Task 3: Interfacing RTC Time Module
-In this task, I interfaced a DS3231 RTC module with ESP32 and displayed the real-time data on the serial monitor. It was a simple yet useful exercise in timekeeping.
-
-![RTC Module Setup](#)
+## Task 10: Watering a Plant
+I designed a system with a solenoid valve to water a plant when the soil moisture level dropped below a threshold. A relay was used to control the valve.
 
 ---
 
-## Task 4: Attendance Logger
-I created an attendance logger using RFID cards. The system recorded attendance with timestamps and sent the data to Google Sheets via IFTTT. It demonstrated the integration of IoT with productivity tools.
+## Task 11: Introduction to RFID
+I learned to use RFID cards and an RFID reader to read metro cards and display hex codes on an LCD screen. It was an exciting introduction to RFID technology.
 
-![Attendance Logger Setup](#)
-
----
-
-## Task 5: Zigbee Communication
-This task aimed to establish communication between Arduino and ESP32 using the Zigbee protocol to transfer sensor data. Unfortunately, I couldn’t complete it as the setup didn’t work.
-
-![Zigbee Communication Setup](#)
+![RFID Example](https://i.postimg.cc/mhZfBBNy/rfid2.jpg)
 
 ---
 
-## Task 6: Controlling Multiple Peripherals Using SPI
-I used SPI communication to control a DC motor with input from an RFID module. This task helped me understand how to manage multiple peripherals using SPI.
+## Task 12: Interfacing RTC Time Module with ESP32
+I interfaced a DS3231 RTC module with ESP32 to display real-time data on a serial monitor.
 
-![SPI Protocol Setup](#)
-
----
-
-## Task 7: Telegram Bot Motor Control
-This task involved creating a Telegram bot to control motor direction. Using ESP32, I successfully turned the motor in both directions by sending commands from the bot.
-
-![Telegram Bot Setup](#)
+![RTC Example](https://i.postimg.cc/5jbKLgX4/rtctime.jpg)
 
 ---
 
-## Task 8: Alexa Light Control
-I used ESP32 to integrate an LED bulb with Alexa. By sending voice commands, I could turn the bulb on and off. This task showcased the potential of smart home integrations.
+## Task 13: Controlling Multiple Peripherals using SPI Protocol
+Using the SPI protocol, I interfaced an RFID module and controlled the direction of a DC motor.
 
-![Alexa Light Control Setup](#)
+---
+
+## Task 14: Telegram Bot Motor Control
+I created a Telegram bot to control the direction of a motor using ESP32. It was fascinating to explore Telegram API for IoT control.
+
+![Telegram Motor Control](https://i.postimg.cc/kVNF5rFx/telegramotor.jpg)
+
+---
+
+## Task 15: Alexa Light Control
+By sending voice commands to Alexa, I controlled the on/off state of an LED bulb using ESP32. It was an incredible experience to integrate smart assistants with IoT.
+
+![Alexa Control Setup](https://i.postimg.cc/R32GW1jB/alexa.jpg)
+
+![Alexa Light Control](https://i.postimg.cc/4Hg55ff2/alexacontrol.jpg)
