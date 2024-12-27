@@ -1,7 +1,3 @@
-# Task List with Experiences and Images
-
----
-
 ## Task 1: Simon Says Game
 I created a "Simon Says" game using ESP32, push buttons, and LEDs. The game blinked LEDs randomly, and I pressed the corresponding buttons. It restarted when I failed.
 
@@ -63,39 +59,40 @@ This task involved creating a fire alarm system using ESP32 and fire sensors. On
 
 ---
 
-## Task 10: Watering a Plant
-I designed a system with a solenoid valve to water a plant when the soil moisture level dropped below a threshold. A relay was used to control the valve.
+#Level 2
 
+## Task 1: Watering a Plant
+I designed a system with a solenoid valve to water a plant when the soil moisture level dropped below a threshold. A relay was used to control the valve.
+![relay](https://i.postimg.cc/QC5vpVSb/relay.jpg)
 ---
 
-## Task 11: Introduction to RFID
+## Task 2&3: Introduction to RFID and SPI based control
 I learned to use RFID cards and an RFID reader to read metro cards and display hex codes on an LCD screen. It was an exciting introduction to RFID technology.
 
 ![RFID Example](https://i.postimg.cc/mhZfBBNy/rfid2.jpg)
 
+And original method which was showing in marvel official site was not working. So I posted modified method to complete this task.
+![Instructable Link](https://www.instructables.com/Creating-an-RFID-Based-Attendance-Logger/)
+
 ---
 
-## Task 12: Interfacing RTC Time Module with ESP32
+## Task 4: Interfacing RTC Time Module with ESP32
 I interfaced a DS3231 RTC module with ESP32 to display real-time data on a serial monitor.
 
 ![RTC Example](https://i.postimg.cc/5jbKLgX4/rtctime.jpg)
 
 ---
 
-## Task 13: Controlling Multiple Peripherals using SPI Protocol
-Using the SPI protocol, I interfaced an RFID module and controlled the direction of a DC motor.
 
----
-
-## Task 14: Telegram Bot Motor Control
+## Task 5: Telegram Bot Motor Control
 I created a Telegram bot to control the direction of a motor using ESP32. It was fascinating to explore Telegram API for IoT control.
 
 ![Telegram Motor Control](https://i.postimg.cc/kVNF5rFx/telegramotor.jpg)
 
 ---
 
-## Task 15: Alexa Light Control
-By sending voice commands to Alexa, I controlled the on/off state of an LED bulb using ESP32. It was an incredible experience to integrate smart assistants with IoT.
+## Task 6: Alexa Light Control
+By sending voice commands to Alexa, I controlled the on/off state of an LED bulb using ESP32. It was an incredible experience to integrate smart assistants with IoT. But I couldn't completely figure out this task .
 
 ![Alexa Control Setup](https://i.postimg.cc/R32GW1jB/alexa.jpg)
 
